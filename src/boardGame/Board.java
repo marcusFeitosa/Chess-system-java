@@ -46,7 +46,7 @@ public class Board {
 	}
 	
 	public Piece removePiece(Position position) {
-		return pieces[0][0];
+		return null;
 	}
 	
 	private boolean positionExists(int row, int column) {
